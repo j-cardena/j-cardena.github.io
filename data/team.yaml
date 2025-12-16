@@ -17,27 +17,12 @@ phd:
   - name: Faezeh Bashiri
     topic: Forecasting of Aggregated Embedded Energy Resources
   
-  - name: Pegah Yazdkhasti
-    topic: Dynamic Modeling of Thermostatically Controlled Appliances for DSM
-  
   - name: Wei Shang
     topic: VoicedTracks and Speech Playback Attack Detection
-  
-  - name: Aryoraad Khodaparast
-    topic: V2G Technologies for Ancillary Services
-  
-  - name: Abdallah Wael Mustafa
-    topic: Distributed Solar Forecasting & Smart Grid Integration
-  
-  - name: Zeinab Hojjatinia
-    topic: Load Forecasting for Smart Grid Functions
 
 msc:
   - name: Anas Cherif
     topic: Advanced Wind Power Forecasting Techniques
-  
-  - name: Bishal Das
-    topic: Load Modelling for Emerging Power Systems
   
   - name: Michael Bourque
     topic: Verification of Digital Twins for Smart Grids
@@ -79,6 +64,10 @@ phd_alumni:
     position: ""
 
 msc_alumni:
+  - name: Bishal Das
+    topic: Load Modelling for Emerging Power Systems
+    position: ""
+
   - name: Zahid Ali Khan
     topic: Centralized Control Strategy for Voltage Regulation Using PV Inverters
     position: ""
@@ -105,11 +94,11 @@ msc_alumni:
   
   - name: Taidy Diaz Guerra
     topic: Load Forecasting for Smart Grid Functions
-    position: Research Assistant, UNB
+    position: Data Scientist, SmartSkin Technologies
   
   - name: Manuel Mendoza Miranda
     topic: Dispatch Capacity Forecasting of DERs for Peak Shaving
-    position: ""
+    position: Technical Staff, SmartSkin Technologies
   
   - name: Tolulope Oluwaseun Olugbenga
     topic: Deep Learning Techniques for Electrical Load Forecasting

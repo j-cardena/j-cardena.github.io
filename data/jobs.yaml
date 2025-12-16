@@ -5,28 +5,78 @@
 #   title: Full position title
 #   type: Position type (e.g., Postdoctoral Fellow, PhD Student)
 #   project: Associated project name
-#   description: What they'll do
-#   requirements: Key qualifications
+#   description: What they'll do (supports HTML for formatting)
+#   requirements: Key qualifications (supports HTML for formatting)
+#   benefits: What you offer (supports HTML for formatting)
 #   start_date: When position begins
 #   deadline: Application deadline or "Open until filled"
 #   funding: Funding source
 #   open: true = shown on website, false = hidden
 #
 # To close a position: change open to false
+# For bullet lists, use HTML: <ul><li>Item</li></ul>
 
 - title: Postdoctoral Research Professional – Dynamic Thermal Rating & DER Analytics
   type: Postdoctoral Fellow
   project: Real-Time DTR & DER-Analytics Platform for NB Power
-  description: We are seeking a highly skilled Research Professional to join our team at the University of New Brunswick (UNB) Fredericton. The successful candidate will play a crucial role in developing, testing, and operationalizing a cloud-based Dynamic Thermal Rating and Distributed Energy Resources (DER) analytics platform. This project is funded by ResearchNB and aims to modernize New Brunswick's grid infrastructure to support the integration of renewable energy sources. |
-  requirements:
-    - PhD in Power Systems, Controls, or Applied Machine Learning.
-    - Minimum of three years of experience with utility data systems and line-rating or DTR projects.
-    - Proficiency in Python, MATLAB, and modern software development practices (CI/CD, MLOps).
-    - Experience with PI/SCADA integration and containerized deployment.
-    - Strong documentation and training skills.
-    - Familiarity with IEEE-738 and IEC 62351 standards is an asset.
-    - Demonstrated ability to mentor students and communicate effectively with stakeholders.
-  start_date: January 2026
-  deadline: Open until filled
+  start_date: January 5, 2026
+  deadline: Open until filled; review begins February 2026
   funding: ResearchNB Research Professional Fund
   open: true
+  
+  description: |
+    The Emera & NB Power Research Center for Smart Grid Technologies at UNB invites applications for a Postdoctoral Research Professional to lead the development, testing, and operationalization of a Dynamic Thermal Rating (DTR) and DER-analytics platform in partnership with NB Power.
+    <br><br>
+    This position is funded by ResearchNB's Research Professional Fund and offers a unique opportunity to advance technology from TRL 5 to TRL 7 while working directly with utility engineers and operational systems.
+    <br><br>
+    <strong>Project Overview</strong><br>
+    New Brunswick's energy strategy calls for a five-fold increase in wind and solar capacity by 2035. This project addresses a critical barrier: the stress on aging transmission infrastructure from rapid DER growth. Dynamic Thermal Rating can unlock 15–30% additional capacity on existing lines when weather conditions permit, reducing renewable curtailment and deferring costly grid rebuilds. You will convert an existing academic prototype into a robust, production-ready solution integrated with NB Power's operational systems.
+    <br><br>
+    <strong>Key Responsibilities</strong><br>
+    <em>Research & Development (60%)</em>
+    <ul>
+    <li>Enhance conductor-temperature models by integrating finite-element thermal physics with LSTM-based weather nowcasting</li>
+    <li>Implement continuous verification against reference sensors with automated fallbacks</li>
+    <li>Target temperature prediction MAE ≤7°C</li>
+    <li>Refactor prototype code into modular micro-services</li>
+    <li>Implement full CI/CD pipeline on UNB GitLab</li>
+    <li>Deploy containerized services on NB Power's on-premises Kubernetes cluster</li>
+    <li>Ensure system uptime ≥95% during pilot operations</li>
+    <li>Configure secure MQTT data feeds from field sensors</li>
+    <li>Conduct 3-month live trials on two 138 kV transmission corridors</li>
+    <li>Develop explainability dashboards and operator alarms</li>
+    </ul>
+    <em>Knowledge Transfer & Mentorship (40%)</em>
+    <ul>
+    <li>Co-supervise 2 MSc and 2 BEng capstone students</li>
+    <li>Lead workshops for NB Power engineers and provincial DER developers</li>
+    <li>Publish code under Apache 2.0 open-source license</li>
+    <li>Contribute to NB Energy Futures white-paper</li>
+    </ul>
+
+  requirements: |
+    <strong>Required Qualifications</strong>
+    <ul>
+    <li>PhD in Power Systems, Electrical Engineering, Controls, or Applied Machine Learning</li>
+    <li>Minimum 3 years experience with utility data systems</li>
+    <li>Proficiency in Python and MATLAB</li>
+    <li>Hands-on experience with CI/CD pipelines, version control (Git), time-series data processing, MLOps, PI/SCADA integration, containerized deployment (Docker, Kubernetes)</li>
+    <li>Strong technical documentation and training skills</li>
+    <li>Demonstrated ability to mentor students</li>
+    </ul>
+    <strong>Preferred Qualifications</strong>
+    <ul>
+    <li>Experience with dynamic line rating or conductor thermal modeling</li>
+    <li>Familiarity with IEEE-738 standard for conductor thermal ratings</li>
+    <li>Knowledge of IEC 62351 (power system cybersecurity) and IEC 61850/MMS</li>
+    <li>Track record of delivering production services in regulated/utility environments</li>
+    </ul>
+
+  benefits: |
+    <ul>
+    <li>Competitive salary with benefits</li>
+    <li>Access to UNB Smart Grid Lab (servers, MATLAB/COMSOL licenses)</li>
+    <li>Direct collaboration with NB Power's transmission planning team</li>
+    <li>Professional development: IEEE PES tutorials, NB Innovation Week, UNB "Project Management for Researchers" micro-credential</li>
+    <li>Pathway to leadership roles in Atlantic Canada's clean-energy sector</li>
+    </ul>

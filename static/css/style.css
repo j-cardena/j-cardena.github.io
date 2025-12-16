@@ -619,15 +619,26 @@ section:nth-child(odd) .team-member {
     line-height: 1.7;
 }
 
-/* Job requirements list alignment */
-.job-section ul {
-    margin: 0.75rem 0 0 0;
-    padding-left: 1.25rem;   /* aligns bullets with paragraph text */
+.job-description {
+    color: var(--color-text);
+    line-height: 1.7;
 }
 
-.job-section li {
-    margin-bottom: 0.5rem;
-    line-height: 1.6;
+.job-description ul {
+    margin: 12px 0;
+    padding-left: 24px;
+}
+
+.job-description li {
+    margin-bottom: 6px;
+}
+
+.job-description strong {
+    color: var(--color-text);
+}
+
+.job-description em {
+    color: var(--color-text-muted);
 }
 
 .job-meta {

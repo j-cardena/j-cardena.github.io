@@ -25,27 +25,24 @@
             {{ if .description }}
             <div class="job-section">
                 <div class="job-section-title">About the Position</div>
-                <p>{{ .description }}</p>
+                <div class="job-description">{{ .description | safeHTML }}</div>
             </div>
             {{ end }}
-
+            
             {{ if .requirements }}
             <div class="job-section">
-                <div class="job-section-title">Requirements</div>
-
-                {{ if reflect.IsSlice .requirements }}
-                <ul>
-                    {{ range .requirements }}
-                    <li>{{ . }}</li>
-                    {{ end }}
-                </ul>
-                {{ else }}
-                <p>{{ .requirements }}</p>
-                {{ end }}
-
+                <div class="job-section-title">Qualifications</div>
+                <div class="job-description">{{ .requirements | safeHTML }}</div>
             </div>
             {{ end }}
-
+            
+            {{ if .benefits }}
+            <div class="job-section">
+                <div class="job-section-title">What We Offer</div>
+                <div class="job-description">{{ .benefits | safeHTML }}</div>
+            </div>
+            {{ end }}
+            
             <div class="job-meta">
                 {{ if .start_date }}
                 <div class="job-meta-item">

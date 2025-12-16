@@ -28,14 +28,24 @@
                 <p>{{ .description }}</p>
             </div>
             {{ end }}
-            
+
             {{ if .requirements }}
             <div class="job-section">
                 <div class="job-section-title">Requirements</div>
+
+                {{ if reflect.IsSlice .requirements }}
+                <ul>
+                    {{ range .requirements }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+                {{ else }}
                 <p>{{ .requirements }}</p>
+                {{ end }}
+
             </div>
             {{ end }}
-            
+
             <div class="job-meta">
                 {{ if .start_date }}
                 <div class="job-meta-item">

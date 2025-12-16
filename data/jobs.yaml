@@ -17,14 +17,7 @@
 - title: Postdoctoral Research Professional – Dynamic Thermal Rating & DER Analytics
   type: Postdoctoral Fellow
   project: Real-Time DTR & DER-Analytics Platform for NB Power
-  description: We are seeking a highly skilled Research Professional to join our team at the University of New Brunswick (UNB) Fredericton. The successful candidate will play a crucial role in developing, testing, and operationalizing a cloud-based Dynamic Thermal Rating and Distributed Energy Resources (DER) analytics platform. This project is funded by ResearchNB and aims to modernize New Brunswick's grid infrastructure to support the integration of renewable energy sources. | 
-     The responsibilities of the Research Professional include
-     - Develop and refine algorithms for real-time dynamic thermal rating and DER analytics.
-     - Implement secure data pipelines to integrate live sensor feeds into NB Power's systems.
-     - Refactor prototype code into modular micro-services and deploy on NB Power's Kubernetes cluster.
-     - Conduct field pilots on two 138kV corridors and validate the platform's performance.
-     - Mentor graduate students and provide training to NB Power's engineering team.
-     - Lead workshops and publish open-source code to promote adoption by local utilities.
+  description: We are seeking a highly skilled Research Professional to join our team at the University of New Brunswick (UNB) Fredericton. The successful candidate will play a crucial role in developing, testing, and operationalizing a cloud-based Dynamic Thermal Rating and Distributed Energy Resources (DER) analytics platform. This project is funded by ResearchNB and aims to modernize New Brunswick's grid infrastructure to support the integration of renewable energy sources. |
   requirements:
     - PhD in Power Systems, Controls, or Applied Machine Learning.
     - Minimum of three years of experience with utility data systems and line-rating or DTR projects.

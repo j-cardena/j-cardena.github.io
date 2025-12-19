@@ -1,6 +1,7 @@
 baseURL = "https://j-cardena.github.io/"
 languageCode = "en-us"
 title = "Julian Cardenas Barrera | Smart Grid Technologies"
+google_analytics = "G-G0W98HKBKV"
 
 [params]
   name = "Julian Cardenas Barrera"

@@ -80,3 +80,61 @@
     <li>Professional development</li>
     <li>Pathway to leadership roles in Atlantic Canada's clean-energy sector</li>
     </ul>
+
+- title: MSc Position – Multi-Physics Dynamic Thermal Rating
+  type: MSc Student
+  project: Multi-Physics Dynamic Thermal Rating
+  start_date: September 2026
+  deadline: Open until filled
+  funding: ResearchNB RAI Fund
+  open: true
+
+  description: |
+    The Emera & NB Power Research Center for Smart Grid Technologies at UNB is seeking a highly motivated MSc student to conduct research on multi-physics dynamic thermal rating (DTR) algorithms for transmission line capacity optimization.
+    <br><br>
+    <strong>Project Overview</strong><br>
+    This research develops advanced DTR algorithms that incorporate multi-physics thermal modeling and IoT sensor pipelines. Your work will provide the foundational research that informs production deployment with NB Power, directly contributing to New Brunswick's renewable energy integration goals.
+    <br><br>
+    <strong>Research Objectives</strong>
+    <ul>
+    <li>Develop finite-element thermal models for overhead conductor temperature prediction</li>
+    <li>Integrate real-time weather data and IoT sensor measurements into DTR calculations</li>
+    <li>Validate models against IEEE-738 standard and field measurements</li>
+    <li>Design data pipelines for real-time sensor data acquisition and processing</li>
+    <li>Quantify capacity gains achievable through dynamic ratings versus static ratings</li>
+    </ul>
+    <br>
+    <strong>What You'll Learn</strong>
+    <ul>
+    <li>Power systems thermal analysis and transmission line engineering</li>
+    <li>Machine learning for time-series forecasting</li>
+    <li>IoT systems and real-time data processing</li>
+    <li>Industry collaboration and technology transfer</li>
+    </ul>
+
+  requirements: |
+    <strong>Required Qualifications</strong>
+    <ul>
+    <li>BScE or BEng in Electrical Engineering, Mechanical Engineering, or related field</li>
+    <li>Strong academic record (minimum 3.0 GPA or equivalent)</li>
+    <li>Programming experience in Python or MATLAB</li>
+    <li>Interest in power systems and/or thermal modeling</li>
+    <li>Strong written and oral communication skills in English</li>
+    </ul>
+    <strong>Preferred Qualifications</strong>
+    <ul>
+    <li>Coursework in power systems, heat transfer, or numerical methods</li>
+    <li>Experience with finite element analysis (COMSOL, ANSYS, or similar)</li>
+    <li>Familiarity with machine learning frameworks (TensorFlow, PyTorch, scikit-learn)</li>
+    <li>Previous research or co-op experience</li>
+    </ul>
+
+  benefits: |
+    <ul>
+    <li>Competitive funding package (stipend + tuition)</li>
+    <li>Access to UNB Smart Grid Lab and high-performance computing resources</li>
+    <li>Collaboration with NB Power engineers on real-world applications</li>
+    <li>Opportunity to publish in top IEEE journals and conferences</li>
+    <li>Mentorship from experienced researchers and industry professionals</li>
+    <li>Pathway to PhD studies or industry positions in the energy sector</li>
+    </ul>

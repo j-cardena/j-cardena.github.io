@@ -20,6 +20,14 @@
   partners: NB Power Partnership
   funding: ResearchNB RPF Funded
 
+- title: Multi-Physics Dynamic Thermal Rating
+  description: Developing advanced DTR algorithms that incorporate multi-physics thermal modeling and IoT sensor pipelines. This foundational research informs the production deployment with NB Power.
+  status: active
+  tag: hiring
+  dates: "2025–2027"
+  partners: ""
+  funding: ResearchNB RAI Funded
+
 - title: Atlantic Digital Grid
   description: An $8.4M consortium developing next-generation grid technologies for Atlantic Canada. Our themes span smart grid cybersecurity, virtual power plant optimization, advanced metering infrastructure, and DER integration—with industry partners including NB Power, Emera, Siemens, and Lockheed Martin.
   status: active
@@ -28,10 +36,3 @@
   partners: Multi-institution Consortium
   funding: ACOA AIF Funded
 
-- title: Multi-Physics Dynamic Thermal Rating
-  description: Developing advanced DTR algorithms that incorporate multi-physics thermal modeling and IoT sensor pipelines. This foundational research informs the production deployment with NB Power.
-  status: active
-  tag: active
-  dates: "2025–2027"
-  partners: ""
-  funding: ResearchNB RAI Funded

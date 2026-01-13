@@ -22,7 +22,7 @@
   start_date: January 5, 2026
   deadline: Open until filled; review begins February 2026
   funding: ResearchNB Research Professional Fund
-  open: true
+  open: false
   
   description: |
     The Emera & NB Power Research Center for Smart Grid Technologies at UNB invites applications for a Postdoctoral Research Professional to lead the development, testing, and operationalization of a Dynamic Thermal Rating (DTR) and DER-analytics platform in partnership with NB Power.

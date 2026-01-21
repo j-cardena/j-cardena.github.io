@@ -10,6 +10,9 @@
 # Members appear in the order listed within each category
 
 postdocs:
+  - name: Ismail Arafat
+    topic: Dynamic Thermal Rating & DER Analytics
+
   - name: Tohid Rahimi
     topic: VPP Hierarchical Optimization and Control Systems
 
@@ -21,9 +24,12 @@ phd:
     topic: VoicedTracks and Speech Playback Attack Detection
   
 msc:
+  - name: Will Englehart
+    topic: Multi-Physics Dynamic Thermal Rating
+
   - name: Anas Cherif
     topic: Advanced Wind Power Forecasting Techniques
-  
+
   - name: Michael Bourque
     topic: Verification of Digital Twins for Smart Grids
   

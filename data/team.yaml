@@ -33,12 +33,6 @@ msc:
   - name: Michael Bourque
     topic: Verification of Digital Twins for Smart Grids
   
-  - name: Sakib Shahriar Joy
-    topic: Solid-State Transformer for Renewable Integration
-  
-  - name: Whomaira Faarhin Durdana
-    topic: V2G Technologies for Frequency Regulation
-
 postdoc_alumni:
   - name: Siamak Shirmohammadi
     topic: Optimization Strategies for Virtual Power Plants
@@ -74,9 +68,18 @@ phd_alumni:
     position: Professor. Universidad Central de Las Villas, Cuba
 
 msc_alumni:
+  - name: Sakib Shahriar Joy
+    topic: Solid-State Transformer for Renewable Integration
+    position: ""
+ 
+  - name: Whomaira Faarhin Durdana
+    topic: V2G Technologies for Frequency Regulation
+    position: ""
+
+
   - name: Bishal Das
     topic: Load Modelling for Emerging Power Systems
-    position: ""
+    position: "Power System Planning Engineer-In-Training, Énergie NB Power"
 
   - name: Zahid Ali Khan
     topic: Centralized Control Strategy for Voltage Regulation Using PV Inverters
